@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<script>document.documentElement.classList.add('js-on');</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Setia Jaya Teknik — Toko Alat Teknik, Mesin & Perlengkapan Bengkel Tangerang</title>
+<meta name="description" content="Pusat distributor dan toko alat teknik, mesin las inverter, gerinda, hand tools, power tools, dan sparepart bengkel di Tangerang. Stok ready, bisa pesan online atau via WhatsApp.">
+<meta name="theme-color" content="#0f172a">
+<meta property="og:title" content="Setia Jaya Teknik — Alat Teknik & Perlengkapan Bengkel">
+<meta property="og:description" content="Mata gerinda, mesin las, perkakas bengkel, power tools & sparepart ready di Tangerang. Kirim cepat sameday & bayar QRIS.">
+<meta property="og:image" content="/toko-kit/img/storefront-1.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #0f172a;
+  --ink-muted: #334155;
+  --ink-dim: #64748b;
+  --paper: #ffffff;
+  --paper-soft: #f8fafc;
+  --paper-alt: #f1f5f9;
+  --line: #e2e8f0;
+  --line-dark: #cbd5e1;
+  --brand: #1d4ed8;
+  --brand-hover: #1e40af;
+  --brand-light: #eff6ff;
+  --brand-ink: #ffffff;
+  --accent: #d97706;
+  --accent-light: #fef3c7;
+  --success: #15803d;
+  --success-light: #dcfce7;
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --maxw: 1240px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; border: none; background: none; cursor: pointer; }
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
+
+/* Announcement Bar */
+.top-notice {
+  background: #0f172a;
+  color: #e2e8f0;
+  font-size: 13px;
+  padding: 8px 16px;
+  text-align: center;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.top-notice strong { color: #f59e0b; }
+
+/* Navbar */
+header.site-hdr {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+.hdr-row { display: flex; align-items: center; justify-content: space-between; height: 68px; gap: 16px; }
+.brand-link { display: flex; align-items: center; gap: 12px; }
+.brand-emblem {
+  width: 42px; height: 42px; border-radius: var(--radius);
+  background: linear-gradient(135deg, #1d4ed8 0%, #0f172a 100%);
+  color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 16px;
+  box-shadow: 0 2px 8px rgba(29, 78, 216, 0.3);
+}
+.brand-titles { display: flex; flex-direction: column; }
+.brand-name { font-weight: 800; font-size: 17px; line-height: 1.2; letter-spacing: -0.02em; color: var(--ink); }
+.brand-tag { font-size: 12px; font-weight: 500; color: var(--ink-dim); line-height: 1.2; }
+
+.nav-links { display: flex; align-items: center; gap: 24px; }
+.nav-links a {
+  font-size: 14.5px; font-weight: 600; color: var(--ink-muted);
+  transition: color 0.15s ease;
+}
+.nav-links a:hover { color: var(--brand); }
+
+.hdr-btns { display: flex; align-items: center; gap: 10px; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  font-size: 13px; font-weight: 600; padding: 8px 15px; border-radius: 8px;
+  transition: all 0.18s ease; line-height: 1.2; text-decoration: none; cursor: pointer;
+}
+.btn-primary {
+  background: var(--brand); color: #fff; border: 1px solid var(--brand);
+  box-shadow: 0 2px 4px rgba(29, 78, 216, 0.2);
+}
+.btn-primary:hover { background: var(--brand-hover); border-color: var(--brand-hover); transform: translateY(-1px); }
+.btn-outline {
+  background: #fff; color: var(--ink); border: 1px solid var(--line-dark);
+}
+.btn-outline:hover { background: var(--paper-alt); border-color: var(--ink-muted); }
+.btn-amber {
+  background: var(--accent); color: #fff; border: 1px solid var(--accent);
+}
+.btn-amber:hover { background: #b45309; }
+.btn-green {
+  background: #16a34a; color: #fff; border: 1px solid #16a34a;
+}
+.btn-green:hover { background: #15803d; }
+.btn-lg { padding: 9px 18px; font-size: 13.5px; font-weight: 600; border-radius: 8px; gap: 7px; }
+.btn-cart-toggle {
+  position: relative; padding: 10px 14px;
+}
+.cart-counter {
+  position: absolute; top: -4px; right: -4px; min-width: 20px; height: 20px;
+  padding: 0 5px; border-radius: 10px; background: #dc2626; color: #fff;
+  font-size: 11px; font-weight: 800; display: grid; place-items: center;
+}
+.cart-counter[hidden] { display: none; }
+
+.mob-menu-toggle { display: none; }
+
+@media (max-width: 900px) {
+  .nav-links { display: none; }
+  .mob-menu-toggle {
+    display: inline-flex; width: 40px; height: 40px; align-items: center; justify-content: center;
+    border-radius: var(--radius); border: 1px solid var(--line); background: #fff;
+  }
+}
+
+/* Mobile Dropdown Nav */
+.mob-nav {
+  position: fixed; inset: 0; z-index: 100; background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(4px); display: none;
+}
+.mob-nav.open { display: block; }
+.mob-nav-content {
+  position: absolute; top: 0; right: 0; width: 85%; max-width: 320px; height: 100%;
+  background: #fff; padding: 24px; display: flex; flex-direction: column; gap: 18px;
+  box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+}
+.mob-nav-head { display: flex; align-items: center; justify-content: space-between; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.mob-nav-links { display: flex; flex-direction: column; gap: 14px; }
+.mob-nav-links a { font-size: 16px; font-weight: 600; color: var(--ink); padding: 8px 0; border-bottom: 1px solid var(--paper-alt); }
+
+/* Hero Section */
+.hero-sec {
+  padding: 56px 0 64px;
+  background: radial-gradient(circle at top right, rgba(29, 78, 216, 0.06), transparent 50%),
+              radial-gradient(circle at bottom left, rgba(245, 158, 11, 0.05), transparent 40%);
+  border-bottom: 1px solid var(--line);
+}
+.hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 48px; align-items: center; }
+.hero-badge-pill {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 6px 14px; border-radius: 999px; background: var(--brand-light);
+  border: 1px solid #bfdbfe; color: var(--brand); font-size: 13px; font-weight: 700;
+  margin-bottom: 20px;
+}
+.pulse-dot { width: 8px; height: 8px; border-radius: 50%; background: #16a34a; box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.25); }
+.hero-title {
+  font-size: clamp(32px, 4.2vw, 48px); font-weight: 800; line-height: 1.18;
+  letter-spacing: -0.03em; color: var(--ink); margin-bottom: 18px;
+}
+.hero-desc {
+  font-size: clamp(16px, 1.8vw, 18px); color: var(--ink-muted); line-height: 1.65;
+  margin-bottom: 30px; max-width: 580px;
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 36px; }
+
+.hero-stats {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+  padding-top: 24px; border-top: 1px solid var(--line);
+}
+.stat-item b { display: block; font-size: 24px; font-weight: 800; color: var(--ink); line-height: 1.2; letter-spacing: -0.02em; }
+.stat-item span { font-size: 12.5px; color: var(--ink-dim); font-weight: 500; }
+
+.hero-visual-card {
+  position: relative; border-radius: var(--radius-xl); overflow: hidden;
+  box-shadow: var(--shadow-xl); border: 1px solid var(--line);
+  background: #0f172a;
+}
+.hero-img { width: 100%; height: 420px; object-fit: cover; object-position: center 30%; filter: contrast(1.05); }
+.hero-overlay-tag {
+  position: absolute; bottom: 16px; left: 16px; right: 16px;
+  background: rgba(15, 23, 42, 0.88); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  color: #fff; padding: 14px 18px; border-radius: var(--radius-lg); border: 1px solid rgba(255,255,255,0.15);
+}
+.overlay-title { font-weight: 700; font-size: 15px; margin-bottom: 2px; }
+.overlay-sub { font-size: 12.5px; color: #94a3b8; }
+.hero-floating-badge {
+  position: absolute; top: 16px; left: 16px;
+  background: #16a34a; color: #fff; font-size: 12px; font-weight: 700;
+  padding: 5px 12px; border-radius: 999px; box-shadow: 0 4px 10px rgba(22, 163, 74, 0.4);
+}
+
+@media (max-width: 900px) {
+  .hero-sec { padding: 36px 0 44px; }
+  .hero-grid { grid-template-columns: 1fr; gap: 32px; }
+  .hero-img { height: 320px; }
+  .hero-stats { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+}
+
+/* Categories Section */
+.sec-pad { padding: 72px 0; }
+.sec-alt { background: var(--paper-soft); }
+.sec-header { text-align: center; max-width: 700px; margin: 0 auto 44px; }
+.sec-tag { font-size: 12.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--brand); margin-bottom: 8px; }
+.sec-title { font-size: clamp(26px, 3.2vw, 36px); font-weight: 800; letter-spacing: -0.025em; line-height: 1.25; margin-bottom: 12px; }
+.sec-subtitle { font-size: 16px; color: var(--ink-dim); line-height: 1.6; }
+
+.cat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+.cat-card {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg);
+  padding: 24px; transition: all 0.2s ease; display: flex; flex-direction: column;
+  position: relative; overflow: hidden;
+}
+.cat-card:hover {
+  transform: translateY(-4px); border-color: var(--brand);
+  box-shadow: var(--shadow-lg);
+}
+.cat-icon-wrap {
+  width: 54px; height: 54px; border-radius: var(--radius);
+  background: var(--brand-light); color: var(--brand);
+  display: grid; place-items: center; margin-bottom: 16px;
+}
+.cat-name { font-size: 17px; font-weight: 700; margin-bottom: 6px; color: var(--ink); }
+.cat-desc { font-size: 13.5px; color: var(--ink-dim); margin-bottom: 16px; line-height: 1.5; flex: 1; }
+.cat-link {
+  font-size: 13.5px; font-weight: 700; color: var(--brand);
+  display: inline-flex; align-items: center; gap: 6px;
+}
+
+/* Featured Products */
+.prod-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 22px; }
+.prod-card {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg);
+  overflow: hidden; display: flex; flex-direction: column; transition: all 0.2s ease;
+  position: relative;
+}
+.prod-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: #cbd5e1; }
+.prod-shot {
+  height: 200px; background: var(--paper-alt); display: grid; place-items: center;
+  position: relative; overflow: hidden; padding: 16px;
+}
+.prod-shot img { max-height: 168px; width: auto; object-fit: contain; }
+.prod-badge-tag {
+  position: absolute; top: 12px; left: 12px;
+  background: var(--accent); color: #fff; font-size: 11px; font-weight: 700;
+  padding: 3px 8px; border-radius: var(--radius-sm);
+}
+.prod-body { padding: 18px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.prod-cat-tag { font-size: 12px; font-weight: 600; text-transform: uppercase; color: var(--ink-dim); letter-spacing: 0.04em; }
+.prod-title { font-size: 15.5px; font-weight: 700; line-height: 1.35; color: var(--ink); }
+.prod-desc-brief { font-size: 13px; color: var(--ink-dim); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.prod-meta-row { display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 12px; border-top: 1px solid var(--paper-alt); }
+.prod-price { font-size: 18px; font-weight: 800; color: var(--ink); letter-spacing: -0.02em; }
+.prod-stock-lbl { font-size: 12px; font-weight: 600; color: var(--success); }
+.prod-btn-row { display: flex; gap: 8px; margin-top: 12px; }
+.prod-btn-row .btn { flex: 1; text-align: center; }
+
+/* Shipping Calculator Card */
+.calc-box {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius-xl);
+  padding: 36px; box-shadow: var(--shadow); max-width: 860px; margin: 0 auto;
+}
+.calc-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; align-items: center; }
+.calc-form select {
+  width: 100%; padding: 12px 14px; border: 1px solid var(--line-dark); border-radius: var(--radius);
+  font: inherit; font-size: 15px; margin-bottom: 14px; background: #fff;
+}
+.calc-result {
+  background: var(--paper-alt); border-radius: var(--radius-lg); padding: 20px;
+  border: 1px solid var(--line);
+}
+.calc-row { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 14.5px; }
+.calc-row b { color: var(--ink); }
+.calc-row.total { border-top: 1px solid var(--line); padding-top: 10px; margin-top: 10px; font-size: 16px; font-weight: 800; }
+@media (max-width: 760px) { .calc-grid { grid-template-columns: 1fr; gap: 20px; } .calc-box { padding: 24px; } }
+
+/* Value Propositions */
+.val-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+.val-card {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg);
+  padding: 28px;
+}
+.val-icon {
+  width: 48px; height: 48px; border-radius: var(--radius); background: #dbeafe;
+  color: var(--brand); display: grid; place-items: center; margin-bottom: 16px;
+}
+.val-card h3 { font-size: 17.5px; font-weight: 700; margin-bottom: 8px; }
+.val-card p { font-size: 14.5px; color: var(--ink-dim); line-height: 1.6; }
+
+/* Testimonials */
+.testi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+.testi-card {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius-lg);
+  padding: 26px; display: flex; flex-direction: column; gap: 14px;
+}
+.testi-stars { display: flex; gap: 4px; color: #f59e0b; }
+.testi-quote { font-size: 15px; color: var(--ink-muted); line-height: 1.6; font-style: italic; flex: 1; }
+.testi-user { display: flex; align-items: center; gap: 12px; }
+.testi-av {
+  width: 44px; height: 44px; border-radius: 50%; background: var(--paper-alt);
+  color: var(--brand); font-weight: 800; display: grid; place-items: center; font-size: 15px;
+}
+.testi-name { font-weight: 700; font-size: 15px; }
+.testi-role { font-size: 12.5px; color: var(--ink-dim); }
+
+/* Steps */
+.step-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; counter-reset: st; }
+.step-item {
+  counter-increment: st; background: #fff; border: 1px solid var(--line);
+  border-radius: var(--radius-lg); padding: 24px; position: relative;
+}
+.step-item::before {
+  content: counter(st); width: 34px; height: 34px; border-radius: var(--radius-sm);
+  background: var(--brand); color: #fff; display: grid; place-items: center;
+  font-weight: 800; font-size: 15px; margin-bottom: 14px;
+}
+.step-item h3 { font-size: 16.5px; font-weight: 700; margin-bottom: 6px; }
+.step-item p { font-size: 14px; color: var(--ink-dim); line-height: 1.55; }
+
+/* Location Storefront Showcase */
+.storefront-box {
+  background: #0f172a; color: #fff; border-radius: var(--radius-xl);
+  overflow: hidden; display: grid; grid-template-columns: 1fr 1fr;
+}
+.storefront-info { padding: 48px; display: flex; flex-direction: column; justify-content: center; }
+.storefront-info h2 { font-size: 28px; font-weight: 800; margin-bottom: 14px; line-height: 1.25; }
+.storefront-info p { color: #94a3b8; font-size: 15.5px; margin-bottom: 24px; line-height: 1.6; }
+.info-row-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 14px; font-size: 14.5px; }
+.info-row-item svg { flex-shrink: 0; color: #38bdf8; margin-top: 3px; }
+.storefront-img-wrap { height: 100%; min-height: 380px; }
+.storefront-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 860px) {
+  .storefront-box { grid-template-columns: 1fr; }
+  .storefront-info { padding: 32px 24px; }
+  .storefront-img-wrap { height: 260px; min-height: auto; }
+}
+
+/* Bottom CTA Banner */
+.cta-banner {
+  background: linear-gradient(135deg, #1d4ed8 0%, #0f172a 100%);
+  color: #fff; border-radius: var(--radius-xl); padding: 56px 36px; text-align: center;
+}
+.cta-banner h2 { font-size: clamp(26px, 3.5vw, 36px); font-weight: 800; margin-bottom: 12px; }
+.cta-banner p { font-size: 16.5px; color: #bfdbfe; max-width: 600px; margin: 0 auto 30px; }
+.cta-banner-btns { display: flex; justify-content: center; flex-wrap: wrap; gap: 14px; }
+
+/* Footer */
+footer.site-foot { background: #0b1120; color: #94a3b8; padding: 48px 0 24px; border-top: 1px solid #1e293b; font-size: 14px; }
+.foot-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 36px; }
+.foot-col h4 { color: #fff; font-size: 15px; font-weight: 700; margin-bottom: 16px; }
+.foot-col p { line-height: 1.6; margin-bottom: 12px; }
+.foot-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.foot-col a:hover { color: #38bdf8; }
+.foot-bottom { border-top: 1px solid #1e293b; padding-top: 20px; display: flex; justify-content: space-between; align-items: center; font-size: 13px; }
+@media (max-width: 768px) {
+  .foot-grid { grid-template-columns: 1fr; gap: 28px; }
+  .foot-bottom { flex-direction: column; gap: 12px; text-align: center; }
+}
+
+/* Floating WhatsApp Button (Pure Icon Circular FAB) */
+.fab-wa {
+  position: fixed; bottom: 22px; right: 22px; z-index: 85;
+  width: 50px; height: 50px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: #25d366; color: #fff;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45), 0 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, background 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.fab-wa:hover {
+  background: #20ba5a; transform: scale(1.08) translateY(-2px);
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.55);
+}
+.fab-wa svg { width: 28px; height: 28px; display: block; }
+@media (max-width: 768px) {
+  .fab-wa { bottom: 18px; right: 18px; width: 48px; height: 48px; }
+  .fab-wa svg { width: 26px; height: 26px; }
+}
+
+/* Quick-Catalog Sidebar Drawer */
+.drawer-scrim {
+  position: fixed; inset: 0; background: rgba(15, 23, 42, 0.5); z-index: 90;
+  opacity: 0; pointer-events: none; transition: opacity 0.2s ease;
+}
+.drawer-scrim.active { opacity: 1; pointer-events: auto; }
+aside.quick-drawer {
+  position: fixed; top: 0; right: 0; width: min(440px, 100vw); height: 100dvh;
+  background: #fff; z-index: 95; display: flex; flex-direction: column;
+  transform: translateX(105%); transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: -10px 0 30px rgba(0,0,0,0.15);
+}
+aside.quick-drawer.open { transform: none; }
+.drawer-hdr {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 20px; border-bottom: 1px solid var(--line);
+}
+.drawer-hdr h3 { font-size: 17px; font-weight: 800; color: var(--ink); }
+.drawer-tools { padding: 12px 20px; border-bottom: 1px solid var(--line); background: var(--paper-soft); }
+.drawer-search {
+  width: 100%; padding: 10px 14px; border: 1px solid var(--line-dark);
+  border-radius: var(--radius); font: inherit; font-size: 14px; background: #fff;
+}
+.drawer-chips { display: flex; gap: 8px; overflow-x: auto; padding: 10px 0 4px; scrollbar-width: none; }
+.drawer-chips::-webkit-scrollbar { display: none; }
+.chip-btn {
+  flex: 0 0 auto; padding: 6px 12px; border-radius: 999px; font-size: 12.5px; font-weight: 600;
+  background: #fff; border: 1px solid var(--line-dark); color: var(--ink-muted);
+}
+.chip-btn.active { background: var(--brand); color: #fff; border-color: var(--brand); }
+.drawer-list { flex: 1; overflow-y: auto; padding: 16px 20px; display: flex; flex-direction: column; gap: 12px; }
+.drawer-item {
+  display: flex; align-items: center; gap: 12px; padding: 10px; border: 1px solid var(--line);
+  border-radius: var(--radius); transition: background 0.15s ease;
+}
+.drawer-item:hover { background: var(--paper-soft); }
+.drawer-item img { width: 56px; height: 56px; object-fit: contain; background: var(--paper-alt); border-radius: var(--radius-sm); padding: 4px; }
+.drawer-item-info { flex: 1; min-width: 0; }
+.drawer-item-title { font-size: 13.5px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.drawer-item-price { font-size: 14px; font-weight: 800; color: var(--brand); }
+.drawer-foot { padding: 16px 20px; border-top: 1px solid var(--line); background: var(--paper-soft); display: flex; flex-direction: column; gap: 8px; }
+
+/* ---------- SPLASH PEMBUKA SINEMATIK 3 DETIK ---------- */
+#splash { display: none; }
+html.js-on #splash {
+  display: grid; place-items: center;
+  position: fixed; inset: 0; z-index: 9999;
+  background: radial-gradient(ellipse at 50% 35%, #172554 0%, #090d16 75%);
+  color: #fff; text-align: center; padding: 24px;
+  opacity: 1; visibility: visible;
+  transition: opacity .6s cubic-bezier(.16, 1, .3, 1), transform .6s cubic-bezier(.16, 1, .3, 1), filter .6s ease, visibility .6s ease;
+}
+html.js-on #splash.gone {
+  opacity: 0; transform: scale(1.05); filter: blur(8px); visibility: hidden; pointer-events: none;
+}
+.splash-card {
+  display: flex; flex-direction: column; align-items: center; max-width: 440px; width: 100%;
+}
+.splash-emblem-wrap {
+  position: relative; margin-bottom: 22px;
+}
+.splash-glow {
+  position: absolute; inset: -15px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(59,130,246,0.5) 0%, rgba(37,99,235,0) 70%);
+  animation: splashPulse 2.8s ease-in-out infinite alternate;
+  filter: blur(8px);
+}
+.splash-mark {
+  position: relative; width: 92px; height: 92px; border-radius: 24px;
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.7), rgba(15, 23, 42, 0.95));
+  border: 1.5px solid rgba(96, 165, 250, 0.45);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  box-shadow: 0 20px 40px -10px rgba(37, 99, 235, 0.5), inset 0 1px 0 rgba(255,255,255,0.2);
+  animation: splashMarkIn .85s cubic-bezier(.16, 1, .3, 1) both;
+}
+.splash-mark-icon {
+  width: 28px; height: 28px; stroke: #60a5fa; margin-bottom: 2px;
+}
+.splash-mark-text {
+  font-weight: 800; font-size: 19px; letter-spacing: .08em; color: #f8fafc;
+}
+.splash-badge {
+  font-size: 10.5px; font-weight: 700; letter-spacing: .12em; color: #60a5fa;
+  background: rgba(37, 99, 235, 0.18); border: 1px solid rgba(96, 165, 250, 0.3);
+  padding: 4px 12px; border-radius: 9999px; margin-bottom: 12px;
+  animation: splashRise .6s cubic-bezier(.16, 1, .3, 1) .25s both;
+}
+.splash-sname {
+  font-size: clamp(22px, 5.5vw, 32px); font-weight: 800; letter-spacing: .02em; color: #ffffff;
+  margin: 0; text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  animation: splashRise .6s cubic-bezier(.16, 1, .3, 1) .35s both;
+}
+.splash-stag {
+  font-size: 13.5px; color: #94a3b8; margin-top: 8px; font-weight: 500;
+  max-width: 320px; line-height: 1.4;
+  animation: splashRise .6s cubic-bezier(.16, 1, .3, 1) .45s both;
+}
+.splash-bar-wrap {
+  width: 220px; margin-top: 28px;
+  animation: splashRise .5s ease .55s both;
+}
+.splash-bar {
+  width: 100%; height: 4px; border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.1); overflow: hidden; position: relative;
+}
+.splash-bar i {
+  display: block; height: 100%; width: 0%; border-radius: 9999px;
+  background: linear-gradient(90deg, #2563eb, #60a5fa, #38bdf8);
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.8);
+  animation: progressFill 3.0s cubic-bezier(.2, .8, .25, 1) forwards;
+}
+.splash-status {
+  font-size: 11.5px; color: #64748b; margin-top: 10px; font-weight: 500;
+  min-height: 16px; transition: color .2s ease;
+}
+
+@keyframes splashPulse {
+  0% { transform: scale(0.9); opacity: 0.4; }
+  100% { transform: scale(1.15); opacity: 0.85; }
+}
+@keyframes splashMarkIn {
+  from { opacity: 0; transform: scale(.7) translateY(20px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes splashRise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes progressFill {
+  0% { width: 0%; }
+  40% { width: 48%; }
+  75% { width: 82%; }
+  100% { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html.js-on #splash, html.js-on #splash.gone { transition: none; }
+  .splash-mark, .splash-sname, .splash-stag, .splash-bar, .splash-bar i { animation: none; }
+}
+
+/* ---------- RUNNING TICKER SEBARIS ---------- */
+.top-ticker {
+  background: #090e1a;
+  color: #cbd5e1;
+  font-size: 12px;
+  height: 34px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  user-select: none;
+}
+.ticker-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: tickerScroll 25s linear infinite;
+}
+.top-ticker:hover .ticker-track {
+  animation-play-state: paused;
+}
+.ticker-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-right: 14px;
+  white-space: nowrap;
+}
+.ticker-tag {
+  background: var(--brand);
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  padding: 2px 7px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(37,99,235,0.4);
+}
+.ticker-dot {
+  color: var(--brand);
+  font-weight: 700;
+  opacity: 0.7;
+}
+@keyframes tickerScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Mobile Header Cleanup */
+@media (max-width: 768px) {
+  .hdr-btns #btnOpenDrawer {
+    display: none !important;
+  }
+  .hdr-btns .btn-primary {
+    display: inline-flex !important;
+    padding: 7px 12px;
+    font-size: 12.5px;
+    border-radius: 8px;
+  }
+  .site-hdr {
+    padding: 10px 0;
+  }
+  .brand-titles .brand-tag {
+    display: none !important;
+  }
+  .brand-titles .brand-name {
+    font-size: 16px;
+  }
+  .brand-emblem {
+    width: 34px;
+    height: 34px;
+    font-size: 13px;
+    border-radius: 8px;
+  }
+  .mob-menu-toggle {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    border-radius: 8px;
+    background: var(--paper-alt);
+    border: 1px solid var(--line);
+    color: var(--ink);
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Splash Screen Sinematik -->
+<div id="splash" aria-hidden="true" title="Klik untuk lewati">
+  <div class="splash-card">
+    <div class="splash-emblem-wrap">
+      <div class="splash-glow"></div>
+      <div class="splash-mark">
+        <svg class="splash-mark-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+        </svg>
+        <span class="splash-mark-text">SJT</span>
+      </div>
+    </div>
+    <div class="splash-badge">OFFICIAL INDUSTRIAL STORE</div>
+    <div class="splash-sname">SETIA JAYA TEKNIK</div>
+    <div class="splash-stag">Pusat Alat Teknik &amp; Perkakas Bengkel Tangerang</div>
+    
+    <div class="splash-bar-wrap">
+      <div class="splash-bar"><i id="splashProgress"></i></div>
+      <div class="splash-status" id="splashStatus">Memuat sistem &amp; katalog inventaris...</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Top Announcement Running Marquee Sebaris -->
+<div class="top-ticker" aria-label="Informasi Pengiriman Cepat">
+  <div class="ticker-track">
+    <div class="ticker-item">
+      <span class="ticker-tag">PENGIRIMAN CEPAT</span>
+      <span>Melayani Seluruh Bengkel &amp; Proyek Industri se-Tangerang &amp; Jabodetabek</span>
+      <span class="ticker-dot">•</span>
+      <span>Bisa Datang Langsung ke Toko Cikupa / Kirim Sameday Order</span>
+      <span class="ticker-dot">•</span>
+      <span>Gratis Ongkir Area Cikupa &amp; Sekitarnya Min. Belanja Rp 500rb</span>
+      <span class="ticker-dot">•</span>
+      <span>Stok Ready: Mata Gerinda, Mesin Las, Hand Tools, Baut &amp; Fastener</span>
+      <span class="ticker-dot">•</span>
+    </div>
+    <div class="ticker-item" aria-hidden="true">
+      <span class="ticker-tag">PENGIRIMAN CEPAT</span>
+      <span>Melayani Seluruh Bengkel &amp; Proyek Industri se-Tangerang &amp; Jabodetabek</span>
+      <span class="ticker-dot">•</span>
+      <span>Bisa Datang Langsung ke Toko Cikupa / Kirim Sameday Order</span>
+      <span class="ticker-dot">•</span>
+      <span>Gratis Ongkir Area Cikupa &amp; Sekitarnya Min. Belanja Rp 500rb</span>
+      <span class="ticker-dot">•</span>
+      <span>Stok Ready: Mata Gerinda, Mesin Las, Hand Tools, Baut &amp; Fastener</span>
+      <span class="ticker-dot">•</span>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-hdr">
+  <div class="wrap hdr-row">
+    <a href="./" class="brand-link">
+      <div class="brand-emblem">SJT</div>
+      <div class="brand-titles">
+        <span class="brand-name">Setia Jaya Teknik</span>
+        <span class="brand-tag">Alat Teknik & Perlengkapan Bengkel</span>
+      </div>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#kategori">Kategori</a>
+      <a href="#katalog">Produk Unggulan</a>
+      <a href="#ongkir">Cek Pengiriman</a>
+      <a href="#keunggulan">Keunggulan</a>
+      <a href="#lokasi">Lokasi Toko</a>
+    </nav>
+
+    <div class="hdr-btns">
+      <a href="./toko/" class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        Buka Toko
+      </a>
+      <button class="mob-menu-toggle" id="mobNavToggle" aria-label="Menu navigasi">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Navigation Drawer -->
+<div class="mob-nav" id="mobNav">
+  <div class="mob-nav-content">
+    <div class="mob-nav-head">
+      <span class="brand-name">Setia Jaya Teknik</span>
+      <button id="closeMobNav" style="padding:6px">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="mob-nav-links">
+      <a href="#kategori" class="mob-link">Kategori Alat</a>
+      <a href="#katalog" class="mob-link">Produk Unggulan</a>
+      <a href="#ongkir" class="mob-link">Cek Estimasi Ongkir</a>
+      <a href="#keunggulan" class="mob-link">Kenapa Pilih Kami?</a>
+      <a href="#lokasi" class="mob-link">Lokasi Toko Fisik</a>
+      <div style="margin: 12px 0 6px; display:flex; flex-direction:column; gap:8px;">
+        <a href="./toko/" class="btn btn-primary" style="display:flex;align-items:center;justify-content:center;gap:8px;padding:12px;width:100%;text-align:center;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          Buka Toko Online Lengkap
+        </a>
+        </div>
+      <a href="./admin/" style="color:var(--ink-dim);font-size:13px;margin-top:6px;">Panel Admin Toko</a>
+    </div>
+    <div style="margin-top:auto">
+      </div>
+  </div>
+</div>
+
+<!-- Hero Section -->
+<section class="hero-sec">
+  <div class="wrap hero-grid">
+    <div class="hero-left">
+      <h1 class="hero-title">Alat Teknik Presisi & Kebutuhan Bengkel Terlengkap di Tangerang.</h1>
+      <p class="hero-desc">
+        Mata gerinda, mesin las inverter, kawat las, kunci ratchet, power tools, hingga baut mur kiloan. Stok nyata dari toko fisik, harga transparan, dan bisa konsultasi spesifikasi sebelum beli.
+      </p>
+      <div class="hero-actions">
+        <a href="./toko/" class="btn btn-primary btn-lg">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          Buka Toko Online
+        </a>
+        <a href="#katalog" class="btn btn-outline btn-lg">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Lihat Produk Terlaris
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <b id="heroStatCount">500+</b>
+          <span>Item Siap Kirim</span>
+        </div>
+        <div class="stat-item">
+          <b>100% Ori</b>
+          <span>Garansi Kualitas</span>
+        </div>
+        <div class="stat-item">
+          <b>Sameday</b>
+          <span>Kurir / Ojol Cepat</span>
+        </div>
+        <div class="stat-item">
+          <b>QRIS & COD</b>
+          <span>Bayar Praktis</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-visual-card">
+        <img class="hero-img" src="/toko-kit/img/storefront-1.jpg" alt="Toko Fisik Setia Jaya Teknik Cikupa Tangerang" loading="eager">
+        <span class="hero-floating-badge">TOKO FISIK READY</span>
+        <div class="hero-overlay-tag">
+          <div class="overlay-title">Setia Jaya Teknik · Gerai Resmi</div>
+          <div class="overlay-sub">Jl. Raya Serang Km 14, Cikupa, Kab. Tangerang · Buka 08.00–17.00 WIB</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Kategori Section -->
+<section class="sec-pad" id="kategori">
+  <div class="wrap">
+    <div class="sec-header">
+      <div class="sec-tag">Etalase Produk</div>
+      <h2 class="sec-title">5 Kategori Kebutuhan Utama Bengkel & Proyek</h2>
+      <p class="sec-subtitle">Semua barang ready di rak toko. Kami pastikan spesifikasi tepat agar pengerjaan Anda cepat dan presisi.</p>
+    </div>
+
+    <div class="cat-grid">
+      <div class="cat-card">
+        <div class="cat-icon-wrap">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <h3 class="cat-name">Mata Gerinda &amp; Poles</h3>
+        <p class="cat-desc">Mata potong WD 107mm, gerinda poles Nippon Resibon 183mm, flap disc, dan amplas bulat untuk pengerjaan logam.</p>
+        <a href="./toko/?c=Mata+Gerinda" class="cat-link">Lihat Produk &rarr;</a>
+      </div>
+
+      <div class="cat-card">
+        <div class="cat-icon-wrap">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <h3 class="cat-name">Mesin &amp; Kawat Las</h3>
+        <p class="cat-desc">Inverter las hemat daya 450 Watt, kawat las elektroda E6013 2.7mm & 3.2mm, topeng las kepala, sarung tangan kulit.</p>
+        <a href="./toko/?c=Alat+Las" class="cat-link">Lihat Produk &rarr;</a>
+      </div>
+
+      <div class="cat-card">
+        <div class="cat-icon-wrap">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a4 4 0 0 1 5 5L11 20H4v-7L14.7 6.3Z"/></svg>
+        </div>
+        <h3 class="cat-name">Hand Tools Presisi</h3>
+        <p class="cat-desc">Set kunci pas ratchet 24 pcs chrome-vanadium, tang ampere digital clamp, obeng set, kunci inggris, dan palu tempa.</p>
+        <a href="./toko/?c=Hand+Tool" class="cat-link">Lihat Produk &rarr;</a>
+      </div>
+
+      <div class="cat-card">
+        <div class="cat-icon-wrap">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="8" width="13" height="8" rx="2"/><path d="M16 11h3l2 2v3h-5"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+        </div>
+        <h3 class="cat-name">Power Tools Industri</h3>
+        <p class="cat-desc">Mesin gerinda tangan 4 inci motor tembaga, bor duduk 13mm heavy duty, mesin bor impact, dan cut-off saw.</p>
+        <a href="./toko/?c=Power+Tool" class="cat-link">Lihat Produk &rarr;</a>
+      </div>
+
+      <div class="cat-card">
+        <div class="cat-icon-wrap">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3.5 20 8v8l-8 4.5L4 16V8l8-4.5Z"/><path d="M12 12v8M4 8l8 4 8-4"/></svg>
+        </div>
+        <h3 class="cat-name">Sparepart &amp; Fastener</h3>
+        <p class="cat-desc">Mata bor besi HSS set 10 pcs, baut mur campuran kiloan, carbon brush motor gerinda, dan ring pengunci baja.</p>
+        <a href="./toko/?c=Sparepart" class="cat-link">Lihat Produk &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Produk Unggulan Section -->
+<section class="sec-pad sec-alt" id="katalog">
+  <div class="wrap">
+    <div class="sec-header">
+      <div class="sec-tag">Pilihan Terbaik</div>
+      <h2 class="sec-title">Produk Paling Sering Dicari Bengkel</h2>
+      <p class="sec-subtitle">Katalog terintegrasi langsung dengan stok toko. Klik produk untuk memesan atau lihat di toko online.</p>
+    </div>
+
+    <div class="prod-grid" id="liveProdGrid">
+      <!-- Injected by landing.js from live catalog API -->
+      <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: var(--ink-dim);">
+        Memuat katalog produk unggulan…
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px;">
+      <a href="./toko/" class="btn btn-primary btn-lg">
+        Lihat Semua Produk di Toko Online &rarr;
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Kalkulator Pengiriman Interaktif -->
+<section class="sec-pad" id="ongkir">
+  <div class="wrap">
+    <div class="sec-header">
+      <div class="sec-tag">Pengiriman &amp; Logistik</div>
+      <h2 class="sec-title">Kalkulator Estimasi Pengiriman Area Tangerang</h2>
+      <p class="sec-subtitle">Armada kurir toko dan ojek online siap kirim pesanan Anda langsung ke lokasi bengkel atau pabrik.</p>
+    </div>
+
+    <div class="calc-box">
+      <div class="calc-grid">
+        <div class="calc-form">
+          <label style="display:block;font-size:14px;font-weight:700;margin-bottom:6px">Pilih Area / Kecamatan Tujuan:</label>
+          <select id="calcAreaSelect">
+            <option value="cikupa" data-km="3" data-time="30-45 Menit">Cikupa (Sekitar Toko) — 1-3 Km</option>
+            <option value="balaraja" data-km="8" data-time="45-60 Menit">Balaraja — 8 Km</option>
+            <option value="pasarkemis" data-km="10" data-time="1 Jam">Pasar Kemis — 10 Km</option>
+            <option value="tigaraksa" data-km="12" data-time="1 Jam">Tigaraksa (Pusat Pemkab) — 12 Km</option>
+            <option value="curug" data-km="11" data-time="1 Jam">Curug / Bitung — 11 Km</option>
+            <option value="karawaci" data-km="16" data-time="1.5 Jam">Karawaci / Tangerang Kota — 16 Km</option>
+            <option value="serpong" data-km="22" data-time="2 Jam">Serpong / BSD — 22 Km</option>
+            <option value="jakbar" data-km="32" data-time="Sameday (3 Jam)">Jakarta Barat / Daan Mogot — 32 Km</option>
+          </select>
+
+          <label style="display:block;font-size:14px;font-weight:700;margin-bottom:6px">Pilihan Layanan Pengiriman:</label>
+          <select id="calcServiceSelect">
+            <option value="kurir">Kurir Toko (Tarif km ekonomis)</option>
+            <option value="instan">Ojek Online Instan (Cepat langsung sampai)</option>
+            <option value="ambil">Ambil Sendiri di Toko Cikupa (Gratis Rp0)</option>
+          </select>
+
+          <button class="btn btn-primary" id="btnHitungOngkir" style="width:100%;margin-top:8px">
+            Hitung Estimasi Ongkir
+          </button>
+        </div>
+
+        <div class="calc-result" id="calcResultBox">
+          <div style="font-size:13px;font-weight:700;text-transform:uppercase;color:var(--brand);margin-bottom:12px">
+            Ringkasan Pengiriman:
+          </div>
+          <div class="calc-row">
+            <span>Asal Pengiriman:</span>
+            <b>Cikupa, Kab. Tangerang</b>
+          </div>
+          <div class="calc-row">
+            <span>Jarak Tempuh:</span>
+            <b id="resKm">3 Km</b>
+          </div>
+          <div class="calc-row">
+            <span>Estimasi Tiba:</span>
+            <b id="resTime">30-45 Menit</b>
+          </div>
+          <div class="calc-row total">
+            <span>Estimasi Biaya:</span>
+            <b id="resCost" style="color:var(--brand);font-size:20px">Rp 7.500</b>
+          </div>
+          <div style="margin-top:12px;font-size:12px;color:var(--ink-dim);line-height:1.4">
+            *Gratis ongkos kirim untuk pesanan di atas Rp 500.000 se-Tangerang.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Keunggulan Section -->
+<section class="sec-pad sec-alt" id="keunggulan">
+  <div class="wrap">
+    <div class="sec-header">
+      <div class="sec-tag">Komitmen Kami</div>
+      <h2 class="sec-title">Kenapa Ratusan Bengkel di Tangerang Langganan ke Kami?</h2>
+      <p class="sec-subtitle">Kami memahami waktu operasional bengkel Anda berharga. Pekerjaan tidak boleh berhenti hanya karena kehabisan mata gerinda atau kawat las.</p>
+    </div>
+
+    <div class="val-grid">
+      <div class="val-card">
+        <div class="val-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+        </div>
+        <h3>Stok Fisik Ready di Rak</h3>
+        <p>Bukan sistem dropship fiktif. Semua item yang tertera di katalog online memiliki stok fisik nyata di gerai toko kami di Cikupa.</p>
+      </div>
+
+      <div class="val-card">
+        <div class="val-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Pengiriman Sameday</h3>
+        <p>Pesan pagi atau siang hari, barang langsung dikirim hari itu juga lewat kurir toko atau ojek online tanpa menunggu besok.</p>
+      </div>
+
+      <div class="val-card">
+        <div class="val-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3>Harga Grosir Mitra Bengkel</h3>
+        <p>Pembelian partai untuk bengkel las, bubut, dan workshop pabrik mendapatkan potongan harga khusus serta bukti nota resmi.</p>
+      </div>
+
+      <div class="val-card">
+        <div class="val-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <h3>Konsultasi Teknis Gratis</h3>
+        <p>Ragu ukuran arbor gerinda, ketebalan elektroda, atau kapasitas bor duduk? Tanyakan langsung ke mekanik kami via WhatsApp.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimoni Pelanggan -->
+<section class="sec-pad">
+  <div class="wrap">
+    <div class="sec-header">
+      <div class="sec-tag">Ulasan Nyata</div>
+      <h2 class="sec-title">Kata Mereka yang Sudah Berlangganan</h2>
+      <p class="sec-subtitle">Kepercayaan pemilik bengkel las, bengkel motor, dan teknisi pabrik di Tangerang.</p>
+    </div>
+
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-stars">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </div>
+        <p class="testi-quote">"Kawat las E6013 dan batu gerinda WD disini stoknya nggak pernah kosong. Pesan jam 9 pagi lewat WA, jam 11 siang udah mendarat di bengkel. Kerja jadi nggak ketunda."</p>
+        <div class="testi-user">
+          <div class="testi-av">PJ</div>
+          <div>
+            <div class="testi-name">Pak Joko Supardi</div>
+            <div class="testi-role">Bengkel Las Kurnia Steel · Cikupa</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </div>
+        <p class="testi-quote">"Kunci pas ratchet set dan tang ampere digitalnya sangat presisi. Enak banget dipakai kerjaan bongkar pasang motor harian. Pembayaran scan QRIS praktis."</p>
+        <div class="testi-user">
+          <div class="testi-av">MB</div>
+          <div>
+            <div class="testi-name">Mas Bowo Pratama</div>
+            <div class="testi-role">Bowo Racing Motor · Balaraja</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </div>
+        <p class="testi-quote">"Untuk pengadaan mata bor HSS dan baut-baut baja kiloan selalu langganan ke Setia Jaya Teknik. Pelayanannya ramah, stok banyak, dan ada nota toko jelas untuk laporan."</p>
+        <div class="testi-user">
+          <div class="testi-av">HB</div>
+          <div>
+            <div class="testi-name">Pak Hendra Budi</div>
+            <div class="testi-role">Maintenance Pabrik · Pasar Kemis</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cara Pesan 4 Langkah -->
+<section class="sec-pad sec-alt">
+  <div class="wrap">
+    <div class="sec-header">
+      <div class="sec-tag">Proses Mudah</div>
+      <h2 class="sec-title">Cara Pesan Tanpa Ribet</h2>
+      <p class="sec-subtitle">Tidak perlu install aplikasi atau bikin akun yang membingungkan. Semua selesai dalam hitungan menit.</p>
+    </div>
+
+    <div class="step-grid">
+      <div class="step-item">
+        <h3>Pilih Alat di Katalog</h3>
+        <p>Buka katalog online, cek foto, deskripsi spesifikasi alat, dan status ketersediaan stok.</p>
+      </div>
+      <div class="step-item">
+        <h3>Isi Alamat &amp; Jumlah</h3>
+        <p>Cukup masukkan nama, no. WhatsApp, dan alamat tujuan kirim. Sistem langsung menghitung ongkir.</p>
+      </div>
+      <div class="step-item">
+        <h3>Bayar via QRIS / Bank</h3>
+        <p>Scan kode QRIS langsung atau transfer rekening BCA. Unggah bukti pembayaran untuk verifikasi.</p>
+      </div>
+      <div class="step-item">
+        <h3>Barang Dikirim / Ambil</h3>
+        <p>Pesanan langsung dikemas dan dikirim ke alamat Anda, atau bisa diambil langsung di toko.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lokasi Toko Fisik & Kontak -->
+<section class="sec-pad" id="lokasi">
+  <div class="wrap">
+    <div class="storefront-box">
+      <div class="storefront-info">
+        <h2>Kunjungi Gerai Fisik Kami</h2>
+        <p>Anda bisa datang langsung ke gerai kami untuk melihat fisik barang, mencoba alat bertenaga, atau konsultasi langsung dengan staf kami.</p>
+
+        <div class="info-row-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <strong style="color:#fff">Alamat Toko:</strong><br>
+            Jl. Raya Serang Km 14, Cikupa, Kab. Tangerang, Banten
+          </div>
+        </div>
+
+        <div class="info-row-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <div>
+            <strong style="color:#fff">Jam Operasional:</strong><br>
+            Senin – Sabtu: 08.00 – 17.00 WIB (Minggu Libur / Janji Temu)
+          </div>
+        </div>
+
+        <div class="info-row-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <div>
+            <strong style="color:#fff">WhatsApp Hotline:</strong><br>
+            <a href="https://wa.me/6281212686654" target="_blank" rel="noopener" style="color:#38bdf8;font-weight:700">0812-1268-6654</a>
+          </div>
+        </div>
+
+        <div style="margin-top:20px;display:flex;gap:12px;flex-wrap:wrap">
+          <a href="https://www.google.com/maps/search/?api=1&query=-6.2382,106.5312" target="_blank" rel="noopener" class="btn btn-primary">
+            Buka Petunjuk Arah Maps &rarr;
+          </a>
+          </div>
+      </div>
+
+      <div class="storefront-img-wrap">
+        <img src="/toko-kit/img/storefront-2.jpg" alt="Plang dan etalase toko Setia Jaya Teknik Cikupa" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bottom CTA Banner -->
+<section class="sec-pad" style="padding-top:0">
+  <div class="wrap">
+    <div class="cta-banner">
+      <h2>Butuh Alat Teknik Hari Ini?</h2>
+      <p>Buka katalog toko online untuk memesan instan, atau hubungi kami langsung via WhatsApp untuk penawaran harga grosir khusus bengkel Anda.</p>
+      <div class="cta-banner-btns">
+        <a href="./toko/" class="btn btn-primary btn-lg" style="background:#fff;color:var(--brand);border-color:#fff">
+          Buka Toko Online Sekarang
+        </a>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <h4>Setia Jaya Teknik</h4>
+        <p>Pusat distributor dan penjualan alat teknik, mesin pengelasan, gerinda, hand tools, power tools, dan sparepart bengkel terlengkap di Tangerang dan sekitarnya.</p>
+        <p>Jl. Raya Serang Km 14, Cikupa, Kab. Tangerang, Banten</p>
+      </div>
+
+      <div class="foot-col">
+        <h4>Navigasi Cepat</h4>
+        <ul>
+          <li><a href="#kategori">Kategori Produk</a></li>
+          <li><a href="#katalog">Produk Unggulan</a></li>
+          <li><a href="#ongkir">Hitung Ongkir</a></li>
+          <li><a href="./toko/">Halaman Toko Online</a></li>
+          <li><a href="./admin/">Panel Admin Toko</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h4>Metode Pembayaran</h4>
+        <p>Mendukung pembayaran digital QRIS (ShopeePay, GoPay, OVO, Dana, LinkAja) serta Transfer Bank BCA.</p>
+        <p style="color:#fff;font-weight:700">Pemesanan Cepat: 0812-1268-6654</p>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <span>&copy; <span id="footYr">2026</span> Setia Jaya Teknik. Hak Cipta Dilindungi.</span>
+      <div style="display:flex;gap:16px">
+        <a href="./toko/">Toko Online</a>
+        <a href="./admin/">Admin Panel</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- Floating WhatsApp Button (Pure Icon) -->
+<a href="https://wa.me/6281212686654?text=Halo%20Setia%20Jaya%20Teknik%2C%20saya%20ingin%20tanya%20produk" target="_blank" rel="noopener" class="fab-wa" aria-label="Chat WhatsApp" title="Chat WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+</a>
+
+<script type="module" src="./landing.js?v=20260928b"></script>
+</body>
+</html>

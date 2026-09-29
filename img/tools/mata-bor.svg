@@ -1,0 +1,16 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' width='100%' height='100%'>
+  <rect width='400' height='400' rx='24' fill='#F8FAFC'/>
+  <rect x='80' y='100' width='240' height='220' rx='12' fill='#0F172A' stroke='#334155' stroke-width='5'/>
+  <rect x='95' y='115' width='210' height='45' rx='6' fill='#DC2626'/>
+  <text x='200' y='145' text-anchor='middle' fill='#FFFFFF' font-family='sans-serif' font-weight='800' font-size='15'>HSS DRILL BITS 10 PCS</text>
+  <g fill='#E2E8F0' stroke='#64748B' stroke-width='2'>
+    <rect x='110' y='180' width='6' height='110' rx='2'/>
+    <rect x='125' y='180' width='8' height='110' rx='2'/>
+    <rect x='145' y='180' width='10' height='110' rx='2'/>
+    <rect x='170' y='180' width='12' height='110' rx='2'/>
+    <rect x='195' y='180' width='14' height='110' rx='2'/>
+    <rect x='225' y='180' width='16' height='110' rx='2'/>
+    <rect x='255' y='180' width='18' height='110' rx='2'/>
+    <rect x='285' y='180' width='20' height='110' rx='2'/>
+  </g>
+</svg>

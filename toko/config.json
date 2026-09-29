@@ -1,0 +1,241 @@
+{
+  "_readme": "Setia Jaya Teknik \u2014 konfigurasi toko resmi",
+  "demo": {
+    "enabled": false,
+    "banner": ""
+  },
+  "store": {
+    "name": "Setia Jaya Teknik",
+    "tagline": "Alat Teknik, Mesin & Perlengkapan Bengkel",
+    "description": "Pusat alat teknik, pengelasan, gerinda, hand tool, power tool, dan sparepart bengkel terlengkap di Tangerang. Stok ready dan kirim cepat.",
+    "logo": "/toko-kit/img/storefront-1.jpg",
+    "banner": "/toko-kit/img/storefront-2.jpg",
+    "whatsapp": "6281212686654",
+    "address": "Jl. Raya Serang Km 14, Cikupa",
+    "city": "Tangerang",
+    "hours": "Senin\u2013Sabtu: 08.00\u201317.00 WIB"
+  },
+  "theme": {
+    "preset": "slate-blue",
+    "primary": "#1D4ED8"
+  },
+  "checkout": {
+    "mode": "guest",
+    "requirePhone": true,
+    "requireAddress": true
+  },
+  "payment": {
+    "method": "qris",
+    "qrisImage": "qris.jpg",
+    "qrisOwner": "Setia Jaya Teknik",
+    "note": "Scan QRIS di atas untuk pembayaran cepat. Unggah foto bukti transfer untuk verifikasi otomatis.",
+    "bank": {
+      "name": "BCA",
+      "account": "8691882041",
+      "holder": "FARID ADAM"
+    }
+  },
+  "shipping": {
+    "enabled": true,
+    "origin": {
+      "lat": -6.2382,
+      "lng": 106.5312
+    },
+    "freeAbove": 500000,
+    "options": [
+      {
+        "id": "kurir",
+        "label": "Kurir toko",
+        "perKm": 2500,
+        "active": true
+      },
+      {
+        "id": "instan",
+        "label": "Instan (1 jam)",
+        "flat": 15000,
+        "active": true
+      },
+      {
+        "id": "ambil",
+        "label": "Ambil di toko",
+        "flat": 0,
+        "active": true
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "sjt-cut-107",
+      "name": "Mata Gerinda Potong 107 mm",
+      "price": 6000,
+      "stock": 120,
+      "weight": 60,
+      "category": "Mata Gerinda",
+      "rating": 4.8,
+      "sold": 420,
+      "description": "Mata potong untuk gerinda tangan ukuran 4 inci. Dipakai memotong besi, plat, dan pipa. Isi 1 keping. Tersedia juga ukuran 183 mm untuk gerinda besar.",
+      "image": "/toko-kit/img/tools/gerinda-potong.jpg"
+    },
+    {
+      "id": "sjt-grind-183",
+      "name": "Mata Gerinda Gurinda 183 mm",
+      "price": 22000,
+      "stock": 45,
+      "weight": 280,
+      "category": "Mata Gerinda",
+      "rating": 4.7,
+      "sold": 160,
+      "description": "Mata gerinda untuk menggerinda permukaan besi dan menghaluskan bekas las. Diameter 183 mm, dipakai pada gerinda besar. Isi 1 keping.",
+      "image": "/toko-kit/img/tools/gerinda-poles.jpg"
+    },
+    {
+      "id": "sjt-elektroda-27",
+      "name": "Elektroda Las 2,7 mm 1 kg",
+      "price": 38000,
+      "stock": 60,
+      "weight": 1100,
+      "category": "Alat Las",
+      "rating": 4.8,
+      "sold": 210,
+      "description": "Kawat las untuk mesin las listrik, diameter 2,7 mm, dikemas 1 kilogram. Cocok untuk las besi konstruksi dan perbaikan rangka. Tersedia juga diameter 3,2 mm.",
+      "image": "/toko-kit/img/tools/elektroda-las.jpg"
+    },
+    {
+      "id": "sjt-las-inverter",
+      "name": "Mesin Las Listrik Inverter 450 Watt",
+      "price": 585000,
+      "stock": 6,
+      "weight": 4500,
+      "category": "Alat Las",
+      "rating": 4.6,
+      "sold": 34,
+      "description": "Mesin las listrik jenis inverter, ringan dan gampang dibawa. Bisa dipakai di rumah dengan listrik rumah tangga. Sudah termasuk kabel dan holder. Garansi toko 1 bulan.",
+      "image": "/toko-kit/img/tools/mesin-las.jpg"
+    },
+    {
+      "id": "sjt-winch-24",
+      "name": "Kunci Pas Ratchet Set 24 Pcs",
+      "price": 265000,
+      "stock": 9,
+      "weight": 1800,
+      "category": "Hand Tool",
+      "rating": 4.7,
+      "sold": 78,
+      "description": "Satu set kunci pas ratchet dengan 24 mata ukuran 6 sampai 24 mm. Disimpan dalam kotak plastik, jadi tidak tercecer. Untuk bongkar pasang motor dan mesin.",
+      "image": "/toko-kit/img/tools/kunci-ratchet.jpg"
+    },
+    {
+      "id": "sjt-tang-ampere",
+      "name": "Tang Ampere Digital",
+      "price": 145000,
+      "stock": 14,
+      "weight": 350,
+      "category": "Hand Tool",
+      "rating": 4.5,
+      "sold": 52,
+      "description": "Tang ampere digital untuk mengukur arus listrik tanpa memutus kabel. Bisa juga untuk ukur tegangan dan tahanan. Cocok buat yang sering kerjakan instalasi listrik bengkel.",
+      "image": "/toko-kit/img/tools/tang-ampere.jpg"
+    },
+    {
+      "id": "sjt-bor-duduk",
+      "name": "Mesin Bor Duduk 13 mm",
+      "price": 1250000,
+      "stock": 4,
+      "weight": 14000,
+      "category": "Power Tool",
+      "rating": 4.6,
+      "sold": 18,
+      "description": "Bor duduk untuk melubangi besi dan kayu dengan hasil lebih presisi daripada bor tangan. Kapasitas chuck 13 mm, sudah termasuk mata bor dasar. Berat sekitar 14 kg, diambil di toko atau kirim dengan ongkos terpisah.",
+      "image": "/toko-kit/img/tools/bor-duduk.jpg"
+    },
+    {
+      "id": "sjt-gerinda-tangan",
+      "name": "Gerinda Tangan 4 Inci",
+      "price": 385000,
+      "stock": 7,
+      "weight": 2200,
+      "category": "Power Tool",
+      "rating": 4.7,
+      "sold": 96,
+      "description": "Gerinda tangan ukuran 4 inci, satu paket dengan handle samping dan kunci pemasangan mata. Sudah terpasang kabel standar. Garansi toko 2 minggu.",
+      "image": "/toko-kit/img/tools/gerinda-tangan.jpg"
+    },
+    {
+      "id": "sjt-sarung-las",
+      "name": "Sarung Tangan Las Kulit",
+      "price": 45000,
+      "stock": 30,
+      "weight": 250,
+      "category": "Alat Las",
+      "rating": 4.5,
+      "sold": 140,
+      "description": "Sarung tangan kulit untuk kerja las dan kerja bengkel. Menahan panas percikan las sampai batas tertentu. Harga per pasang.",
+      "image": "/toko-kit/img/tools/sarung-las.jpg"
+    },
+    {
+      "id": "sjt-helm-las",
+      "name": "Topeng Las Kepala",
+      "price": 85000,
+      "stock": 12,
+      "weight": 600,
+      "category": "Alat Las",
+      "rating": 4.4,
+      "sold": 64,
+      "description": "Topeng las model dipakai di kepala, jadi kedua tangan bebas memegang logam. Lensa bisa diganti. Harga termurah dari merek yang kami stok.",
+      "image": "/toko-kit/img/tools/topeng-las.jpg"
+    },
+    {
+      "id": "sjt-sparepart-baut",
+      "name": "Baut dan Mur Campuran 1 Kg",
+      "price": 35000,
+      "stock": 40,
+      "weight": 1050,
+      "category": "Sparepart",
+      "rating": 4.3,
+      "sold": 190,
+      "description": "Baut dan mur campur ukuran 8 sampai 14 mm, dijual per kilogram. Praktis buat bengkel yang sering butuh sparepart satuan. Ukuran bisa dipilih saat mengambil.",
+      "image": "/toko-kit/img/tools/baut-mur.jpg"
+    },
+    {
+      "id": "sjt-mata-bor",
+      "name": "Mata Bor Besi HSS Set 10 Pcs",
+      "price": 55000,
+      "stock": 22,
+      "weight": 300,
+      "category": "Sparepart",
+      "rating": 4.6,
+      "sold": 118,
+      "description": "Set mata bor HSS 10 buah ukuran 1 sampai 10 mm, disimpan dalam kotak. Untuk melubangi besi, aluminium, dan plastik. Bukan untuk beton.",
+      "image": "/toko-kit/img/tools/mata-bor.jpg"
+    }
+  ],
+  "catalog": {
+    "categories": [
+      "Mata Gerinda",
+      "Alat Las",
+      "Hand Tool",
+      "Power Tool",
+      "Sparepart"
+    ],
+    "showRating": false,
+    "showStock": true
+  },
+  "chat": {
+    "enabled": true,
+    "greeting": "Halo, selamat datang di Setia Jaya Teknik! Butuh rekomendasi alat teknik, kawat las, gerinda, atau sparepart? Tulis kebutuhan Anda di sini atau hubungi kami langsung via WhatsApp.",
+    "quickReplies": [
+      "Barang ini ada stok?",
+      "Bisa kirim ke luar kota?",
+      "Bisa beli partai besar?",
+      "Minta daftar harga lengkap"
+    ]
+  },
+  "admin": {
+    "apiBase": "/toko-api",
+    "storeId": "setia-jaya-teknik"
+  },
+  "branding": {
+    "orderPrefix": "SJT",
+    "footerNote": "Setia Jaya Teknik \u2014 distributor alat teknik, mesin & perlengkapan bengkel."
+  }
+}

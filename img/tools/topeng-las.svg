@@ -1,0 +1,9 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' width='100%' height='100%'>
+  <rect width='400' height='400' rx='24' fill='#F8FAFC'/>
+  <path d='M130 80 Q200 60 270 80 Q300 150 280 280 Q200 340 120 280 Q100 150 130 80 Z' fill='#0F172A' stroke='#334155' stroke-width='6'/>
+  <rect x='150' y='140' width='100' height='50' rx='8' fill='#10B981' stroke='#065F46' stroke-width='4'/>
+  <text x='200' y='172' text-anchor='middle' fill='#064E3B' font-family='sans-serif' font-weight='800' font-size='13'>DIN 11</text>
+  <circle cx='105' cy='170' r='10' fill='#F59E0B'/>
+  <circle cx='295' cy='170' r='10' fill='#F59E0B'/>
+  <text x='200' y='250' text-anchor='middle' fill='#94A3B8' font-family='sans-serif' font-weight='700' font-size='12'>AUTO-DARKENING</text>
+</svg>

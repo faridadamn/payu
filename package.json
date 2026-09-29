@@ -1,0 +1,23 @@
+{
+  "name": "payu",
+  "version": "1.0.0",
+  "description": "Payu — Platform Toko Online, Direct WhatsApp & Dynamic QRIS Engine untuk UMKM",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "keywords": [
+    "payu",
+    "ecommerce",
+    "whatsapp-store",
+    "qris",
+    "saas",
+    "indonesia",
+    "umkm",
+    "toko-online"
+  ],
+  "author": "Farid Adam <faridadam.dev@gmail.com>",
+  "license": "MIT"
+}

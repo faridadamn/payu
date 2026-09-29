@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Memuat…</title>
+<meta name="description" id="meta-desc" content="">
+<meta name="theme-color" id="meta-theme" content="#F7F5F0">
+<link rel="icon" id="favicon" href="data:,">
+<link rel="stylesheet" href="./style.css?v=20260929a">
+</head>
+<body>
+
+
+
+
+<!-- ===================== HEADER ===================== -->
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <a href="./" class="hdr-brand" title="Katalog Toko">
+      <div class="hdr-logo" id="hdrLogo" aria-hidden="true"></div>
+      <div class="hdr-name" id="hdrName"></div>
+    </a>
+
+    <div class="hdr-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+      </svg>
+      <input type="search" id="q" placeholder="Cari produk di toko ini" autocomplete="off" aria-label="Cari produk">
+    </div>
+
+    <div class="hdr-actions">
+      <button class="icon-btn" id="btnUser" aria-label="Akun saya" title="Akun saya" style="position:relative">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+        </svg>
+        <span class="user-logged-dot" id="userDot" hidden style="position:absolute;top:5px;right:5px"></span>
+      </button>
+      <button class="icon-btn" id="btnOrders" aria-label="Pesanan saya" title="Pesanan saya">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2h12l1 5H5z"/><path d="M5 7v13a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7"/><path d="M9 12a3 3 0 0 0 6 0"/>
+        </svg>
+      </button>
+      <button class="icon-btn" id="btnCart" aria-label="Keranjang" title="Keranjang">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.5 12h12L22 7H6"/>
+        </svg>
+        <span class="badge" id="cartBadge" hidden>0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <!-- ===================== STORE INTRO ===================== -->
+  <section class="intro" id="intro" hidden>
+    <div class="intro-banner" id="introBanner"></div>
+    <div class="intro-row">
+      <div class="intro-avatar" id="introAvatar"></div>
+      <div class="intro-meta">
+        <h1 class="intro-name" id="introName"></h1>
+        <p class="intro-tagline" id="introTagline"></p>
+        <div class="intro-facts" id="introFacts"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CATEGORIES ===================== -->
+  <nav class="chips" id="chips" hidden aria-label="Kategori produk"></nav>
+
+  <!-- ===================== CATALOG ===================== -->
+  <div class="sec-head" id="secHead" hidden>
+    <h2 class="sec-title" id="secTitle">Semua Produk</h2>
+    <span class="sec-count" id="secCount"></span>
+  </div>
+
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer class="ftr" id="ftr" hidden>
+  <div class="wrap">
+    <div class="ftr-row" id="ftrFacts"></div>
+    <div id="ftrNote"></div>
+  </div>
+</footer>
+
+<!-- ===================== CHAT ===================== -->
+<button class="chat-fab" id="chatFab" hidden>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 12a8 8 0 0 1-8 8H8l-5 3 1.5-5A8 8 0 1 1 21 12z"/>
+  </svg>
+  <span>Tanya penjual</span>
+</button>
+
+<section class="chat-panel" id="chatPanel" hidden aria-label="Chat dengan penjual">
+  <div class="chat-head">
+    <div class="chat-head-av" id="chatAv"></div>
+    <div class="chat-head-meta">
+      <div class="chat-head-name" id="chatName"></div>
+      <div class="chat-head-sub">Biasanya balas cepat</div>
+    </div>
+    <button class="sheet-close" id="chatClose" aria-label="Tutup chat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="chat-body" id="chatBody" aria-live="polite"></div>
+  <div class="chat-quick" id="chatQuick"></div>
+  <div class="chat-input">
+    <textarea id="chatText" rows="1" placeholder="Tulis pertanyaan…" aria-label="Pesan"></textarea>
+    <button id="chatSend" aria-label="Kirim pesan">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12 20 4l-8 16-2-6z"/></svg>
+    </button>
+  </div>
+</section>
+
+<!-- ===================== SHEET ===================== -->
+<div class="scrim" id="scrim" hidden></div>
+
+<aside class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+  <div class="sheet-head">
+    <h2 class="sheet-title" id="sheetTitle"></h2>
+    <button class="sheet-close" id="sheetClose" aria-label="Tutup">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="sheet-body" id="sheetBody"></div>
+  <div class="sheet-foot" id="sheetFoot"></div>
+</aside>
+
+<div class="toast" id="toast" hidden role="status" aria-live="polite"></div>
+
+<input type="file" id="filePick" data-testid="proof-input" accept="image/*" hidden>
+
+<!-- ===================== BOTTOM NAVBAR (MOBILE VIEW) ===================== -->
+<nav class="toko-bottom-nav" id="tokoBottomNav" aria-label="Navigasi Bawah">
+  <button type="button" class="toko-nav-item active" id="bnavHome" aria-label="Katalog Produk">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+    </svg>
+    <span>Katalog</span>
+  </button>
+  <button type="button" class="toko-nav-item" id="bnavCats" aria-label="Kategori">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 6h16M4 12h16M4 18h7"/>
+    </svg>
+    <span>Kategori</span>
+  </button>
+  <button type="button" class="toko-nav-item" id="bnavCart" aria-label="Keranjang Belanja">
+    <span class="toko-nav-icon-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.5 12h12L22 7H6"/>
+      </svg>
+      <span class="toko-bnav-badge" id="bnavCartBadge" hidden>0</span>
+    </span>
+    <span>Keranjang</span>
+  </button>
+  <button type="button" class="toko-nav-item" id="bnavOrders" aria-label="Pesanan Saya">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 2h12l1 5H5z"/><path d="M5 7v13a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7"/><path d="M9 12a3 3 0 0 0 6 0"/>
+    </svg>
+    <span>Pesanan</span>
+  </button>
+  <button type="button" class="toko-nav-item" id="bnavChat" aria-label="Chat Penjual">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 12a8 8 0 0 1-8 8H8l-5 3 1.5-5A8 8 0 1 1 21 12z"/>
+    </svg>
+    <span>Chat</span>
+  </button>
+</nav>
+<script type="module" src="./app.js?v=20260929a"></script>
+</body>
+</html>
